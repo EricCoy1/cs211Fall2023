@@ -125,9 +125,12 @@ template <class T>
 void DLL<T>::addFront(const T& el){
   if(isEmpty()){
     front = rear = new node<T>;
+    front->next = NULL;
+    front->prev = NULL;
   } else {
     node<T>*p = new node<T>;
     p->next = front;
+    front->prev = p;
     p->prev = NULL;
     front = p;
     //front->elem = el;

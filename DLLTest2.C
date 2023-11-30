@@ -30,13 +30,7 @@ int main()
 
   cout << "------------ B -------------" << endl;
 
-  int y = l.getCount();
-  cout << y << endl;
-
   l.addRear(1);
-  int x = l.getCount();
-  cout << x << endl;
-  
   
   l.displayAll(); // 1
   cout << endl;
@@ -45,7 +39,7 @@ int main()
   l.printAllReverseDLL(); // 1
   cout << endl;
 
-  /* 
+  
 
 
   cout << "------------ C -------------" << endl;
@@ -127,7 +121,7 @@ int main()
   l.printAllReverseDLL(); // 1 2 3 4 5
   cout << endl;
 
-   
+   /*
 
   cout << "------------ B -------------" << endl;
 
