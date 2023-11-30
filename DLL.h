@@ -112,7 +112,8 @@ T DLL<T>::deleteFront(){
     node<T>*second = front->next;
     delete front;
     front = second;
-    front->prev = NULL;
+    if(front != NULL)
+      front->prev = NULL;
     count--;
     if(front == NULL)
       rear = NULL;
