@@ -1,2 +1,12 @@
-**/*~
-a.out
+Ignore all
+*
+
+Unignore all with extensions
+!.
+
+Unignore all dirs
+!/
+
+settings.json
+tasks.json
+**/plist
