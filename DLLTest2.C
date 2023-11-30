@@ -34,10 +34,6 @@ int main()
   cout << y << endl;
 
   l.addRear(1);
-  l.addRear(2);
-  l.addRear(7);
-  l.addRear(9);
-  l.addRear(20);
   int x = l.getCount();
   cout << x << endl;
   
