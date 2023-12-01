@@ -223,11 +223,16 @@ bool LL<T>::search(const T& e){
   if(isEmpty())
     return false;
   else{
+    int counter = 0;
     for(p = front; p != NULL; p = p->next){
-      if(p->elem == e)
+      counter++;
+      if(p->elem == e){
+	cout << counter << endl;
 	return true;
+      }
     }
     return false;
+    cout << counter << endl;
   }
 }
 
