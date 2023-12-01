@@ -121,7 +121,7 @@ int main()
   l.printAllReverseDLL(); // 1 2 3 4 5
   cout << endl;
 
-   /*
+   
 
   cout << "------------ B -------------" << endl;
 
@@ -168,7 +168,7 @@ int main()
 
   cout << "TEST Search **************************************************************" << endl;
 
-  DLL l2;
+  DLL<int> l2;
   l2.addRear(3);
   l2.addRear(9);
   l2.addRear(2);
@@ -322,7 +322,7 @@ int main()
   cout << endl;
   l.printAllReverseDLL(); // 7 7 5 5 3 1 0 0
   cout << endl;
-
+/*
 
   /*
   cout << "##### EXTRA CREDIT -  TEST deleteNodes (all occurences) **************************************************************" << endl;
