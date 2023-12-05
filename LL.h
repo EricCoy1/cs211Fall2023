@@ -227,12 +227,12 @@ bool LL<T>::search(const T& e){
     for(p = front; p != NULL; p = p->next){
       counter++;
       if(p->elem == e){
-	cout << counter << endl;
-	return true;
+	      cout << counter << " nodes checked" << endl;
+	      return true;
       }
     }
+    cout << counter << " nodes checked" << endl;
     return false;
-    cout << counter << endl;
   }
 }
 
